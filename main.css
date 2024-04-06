@@ -1,0 +1,307 @@
+* /* Применяем ко всему сайту, убираем отступы которые может добавлять браузер */
+{
+    margin: 0 ;
+    padding: 0;
+    
+}
+
+body
+{
+    background-color: white;
+    font-family: 'Franklin Gothic Medium';
+    
+}
+
+.container /* Задаем стили для общего контейнера*/
+{
+    max-width: 1200px;
+    margin: 0 auto; /* Внешние отступы */
+}
+
+
+
+.bg-object
+{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -40px;
+}
+
+
+.header
+{
+    padding: 40px 0; /* Задаем внутренние отсутпы*/
+    
+
+}
+
+.header .container /* Задаем стили для контейнера в header */
+{
+    display: flex;
+    align-items: center;
+}
+
+.logo .img
+{
+    vertical-align: bottom; /* Убираем отступ снизу */
+    
+}
+
+.logo
+{
+    margin-left: 120px;
+    width: 156px;
+    height: 50px;
+}
+
+.menu-list
+{
+    list-style: none;
+    display: flex;
+    
+}
+
+.menu-item
+{
+    margin-right: 140px;
+    
+}
+
+.menu-item a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: #42AAFF;
+    border: 2px solid #42AAFF;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+.menu-item a:hover
+{
+    background-color: #DCDCDC;
+}
+
+.cart
+{
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.main-content
+{
+    padding-top: 103px;
+    padding-bottom: 199px;
+    grid-template-columns: 1fr 300px;
+    
+}
+
+.main-content .container
+{
+    position: relative;
+}
+
+.info
+{
+    max-width: 608px;
+}
+
+.main-some-info
+{
+    
+    text-decoration: none;
+    font-size: 20px;
+    color: #42AAFF;
+    border: 2px solid #42AAFF;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+.main-title
+{
+    font-size: 120px;
+    font-family: 'Arial Narrow';
+    line-height: 156px;
+    letter-spacing: 3.60px;
+    text-transform: uppercase;
+    margin-bottom: 56px;
+}
+
+.main-text
+{
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 56px;
+}
+
+button
+{
+    
+    border-radius: 20px;
+    padding: 5px 15px;
+    border: 2px solid #42AAFF;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+    color: #42AAFF;
+    text-decoration: none;
+    
+}
+.renchback
+{
+    width: 800px;
+    height: 600px;
+    border: 2px solid black;
+    top: -10px;
+    left: 55%;
+    position: absolute;
+    border-radius: 70px;
+    border: 3px solid #42AAFF;
+    
+}
+
+.rench
+{
+    position: absolute;
+    top: -99px;
+    left: 8%;
+    width: 700px;
+}
+
+.spiderback
+{
+    width: 800px;
+    height: 600px;
+    border: 2px solid black;
+    top: -10px;
+    left: 55%;
+    position: absolute;
+    border-radius: 70px;
+    border: 3px solid #42AAFF;
+    
+}
+
+.spiderman
+{
+    position: absolute;
+    top: -80px;
+    left: -18%; 
+}
+
+.lessonback
+{
+    width: 800px;
+    height: 600px;
+    border: 2px solid black;
+    top: -10px;
+    left: 55%;
+    position: absolute;
+    border-radius: 70px;
+    border: 3px solid #42AAFF;
+    overflow: hidden;
+    
+}
+
+.lesson
+{
+    position: absolute;
+    top: 22px;
+    left: 9%; 
+}
+
+.main-title-html
+{
+    font-size: 156px;
+    font-family: 'Arial Narrow';
+    line-height: 156px;
+    letter-spacing: 3.60px;
+    text-transform: uppercase;
+    margin-bottom: 56px;
+}
+
+.orderback
+{
+    width: 800px;
+    height: 600px;
+    border: 2px solid black;
+    top: -10px;
+    left: 55%;
+    position: absolute;
+    border-radius: 70px;
+    border: 3px solid #42AAFF;
+    overflow: hidden; 
+}
+
+
+.email
+{
+    position: absolute; /* Позиционируем инпут абсолютно внутри контейнера */
+    top: 40%; /* Положение по вертикали */
+    left: 35%; /* Положение по горизонтали */
+    
+    
+}
+
+.email input[type="email"] {
+    border: 2px solid #42AAFF;
+    border-radius: 20px;
+    width: 300px;
+    height: 30px;
+    outline: none;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    background: none;
+    backdrop-filter: blur(2px);
+    color: white;
+}
+
+.email input[type="email"]::placeholder
+{
+    color: white;
+}
+
+.ordername
+{
+    position: absolute; /* Позиционируем инпут абсолютно внутри контейнера */
+    top: 50%; /* Положение по вертикали */
+    left: 35%; /* Положение по горизонтали */
+    
+}
+
+.ordername input[type="text"] {
+    border: 2px solid #42AAFF;
+    border-radius: 20px;
+    width: 300px;
+    height: 30px;
+    outline: none;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    background: none;
+    backdrop-filter: blur(2px);
+    color: white;
+}
+
+.ordername input[type="text"]::placeholder
+{
+    color: white;
+}
+
+.send
+{
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    line-height: 5px;
+    text-transform: uppercase;
+    justify-content: center;
+    background: none;
+    color: white;
+    backdrop-filter: blur(2px);
+}
+

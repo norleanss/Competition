@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Main </title>
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+    
+        <div class="bg-object">
+            <img src="triangle.png">
+        </div>
+    <header class="header"> <!-- Cоздаем шапку сайта -->
+        <div class="container"> <!-- Контейнер для всех элементов в шапке сайта и управления ими-->
+            <div class="logo"> <!-- Создаем div для логотипа, чтобы легче было им управлять-->
+                <img src="download.gif" alt="логотип">
+            </div>
+            <nav class="menu"> <!-- Создаем навигационную панель -->
+                <ul class="menu-list"> <!-- Создаем маркированный список -->
+                    <li class="menu-item"> <!-- Пункты списка -->
+                        <a href="#about"> О нас </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#best"> Бестселлеры </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#order"> Оформление заказа </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="cart" title="Перейти в корзину"> <!-- Создаем div для корзинки -->
+            <img src="cart.gif" alt="корзинка">
+            </div>
+        </div>
+    </header>
+    
+    <section class="main-content" id="about">
+        <div class="container">
+            <div class="info">
+                <span class="main-some-info"> Лаборатория ХАКа </span>
+                <h1 class="main-title"> Мистер ХАК  </h1>
+                <p class="main-text">
+                    Доступ в дешевый интернет начинается с лаборатории Хака, 
+                    безопасные и иновационные пути к знаниям и информациям, без
+                    необходимости скачивания на свой компьютер, пользуйся услугами через
+                    наше облако.
+                </p>
+                <div class="main-buy">
+                    <button class="buy"> Приобрести подписку ХАК </button>
+                </div>
+            </div>
+            <div class="renchback">
+                <img src="renchtest.png" class="rench">
+            </div>
+        </div>
+    </section>
+
+    <section class="main-content" id="best">
+        <div class="container">
+            <div class="info">
+                <span class="main-some-info"> Наш эксклюзив </span>
+                <h1 class="main-title"> Miles Morales  </h1>
+                <p class="main-text">
+                    Майлза укусил генетически модифицированный паук из лаборатории Нормана Озборна, 
+                    но вместо того, чтобы умереть, как ожидалось, Майлз начинает 
+                    открывать в себе различные сверхчеловеческие способности.
+                </p>
+                <div class="main-buy">
+                    <button class="buy"> Купить </button>
+                </div>
+            </div>
+            <div class="spiderback">
+            <img src="spiderman.png" class="spiderman">
+        </div>
+        </div>
+    </section>
+
+    <section class="main-content">
+        <div class="container">
+            <div class="info">
+                <span class="main-some-info"> КУРС ГОДА </span>
+                <h1 class="main-title-html"> HTML CSS  </h1>
+                <p class="main-text">
+                Узнай основу веб-разработки и создания сайтов. Познакомься с языком гипертекстовой разметки 
+                HTML как с основой любого сайта и добавь веб-страницам индивидуальности с таблицами стилей CSS
+                </p>
+                <div class="main-buy">
+                    <button class="buy"> Купить </button>
+                </div>
+            </div>
+            <div class="lessonback">
+            <img src="HTML.png" class="lesson">
+        </div>
+        </div>
+    </section>
+
+    <section class="main-content" id="order">
+        <div class="container">
+            <div class="info">
+                <span class="main-some-info"> УЗНАВАЙ НОВОЕ  </span>
+                <h1 class="main-title-html"> ЗАКАЖИ СЕЙЧАС  </h1>
+                <p class="main-text">
+                    На нашем сайте вы можете заказать уникальные товары, которых нет нигде, за пол цены. 
+                    Просто свяжитесь с нами, и мы постараемся удовлетворить ваш запрос.
+                </p>
+                <div class="main-buy">
+                    <button class="buy"> Купить </button>
+                </div>
+            </div>
+            <div class="orderback">
+                <div class="email">
+                    <input type="email" placeholder="Введите эл.почту" required>
+                </div>
+                <div class="ordername">
+                    <input type="text" placeholder="Введите нужный товар" required> 
+                </div>
+                <button class="send"> Оформить заказ </button>
+                <img src="hack.png" class="order">      
+            </div>
+        </div>
+    </section>
+</body>
+</html>
